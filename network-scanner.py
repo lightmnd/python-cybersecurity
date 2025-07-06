@@ -2,7 +2,7 @@ import scapy.all as scapy
 
 # This script scans a network for active devices and their MAC addresses.
 # It uses the Scapy library to send ARP requests and receive responses.
-# To run this script, you need to have Scapy installed and run it with root privileges
+# To run this script, you   need to have Scapy installed and run it with root privileges
 # (e.g., using `sudo` on Linux or macOS).
 
 # use optparse to parse command line arguments
