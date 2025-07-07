@@ -1,0 +1,8 @@
+inurl:login | inurl:admin | inurl:dashboard -github -stackoverflow
+inurl:/view.shtml
+ext:xlsx | ext:csv | ext:txt | ext:env "password"
+intext:"phpMyAdmin" "Welcome to phpMyAdmin" inurl:index.php
+inurl:index.php?id= intext:"Warning: mysql_fetch"
+intitle:"index of" "backup.zip" | "backup.sql" | "backup.tar.gz"
+filetype:pdf intext:"password"
+intitle:"index of" "wp-content/uploads"
